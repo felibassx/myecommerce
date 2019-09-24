@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open --port 5701",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -22,6 +22,7 @@
     "@ngrx/router-store": "^8.3.0",
     "@ngrx/store": "^8.3.0",
     "@ngrx/store-devtools": "^8.3.0",
+    "angular-in-memory-web-api": "^0.9.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

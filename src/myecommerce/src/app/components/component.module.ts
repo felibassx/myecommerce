@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { MainComponent } from './pages/main/main.component';
 import { ComponentsComponent } from './components.component';
 import { COMPONENTS_ROUTES } from './component.routes';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { COMPONENTS_ROUTES } from './component.routes';
     ],
     imports: [
         FormsModule,
+        CommonModule,
         COMPONENTS_ROUTES
     ]
 })
